@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Er. Ruvana Ansari | Full Stack Developer & MERN Specialist Portfolio</title>
+  <meta name="description"
+    content="Official Portfolio of Er. Ruvana Ansari - Full Stack Developer in Noida building scalable web applications and beautiful user experiences.">
+  <meta name="keywords"
+    content="Er. Ruvana Ansari, Full Stack Developer, Web Developer Noida, MERN Stack, React Developer, Node.js, Rakle IT Solution">
+  <meta name="author" content="Er. Ruvana Ansari">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Background Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#hero" class="logo">
+        <span class="code-tag">&lt;</span>Er. Ruvana<span class="code-tag"> /&gt;</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="devModeToggle" aria-label="Toggle Dev Mode" title="Enable Dev Mode (Terminal)">
+          </i> <span>Click Me</span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <a href="#contact" class="btn-primary">
+          <i class="fa-solid fa-paper-plane"></i> Let's Talk
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Mobile Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero section">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="badge-pill" title="Open to relocation and remote opportunities worldwide">
+            <span class="pulse-dot"></span> Open to Global Remote Work & Relocation
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Er. Ruvana Ansari</span>
+          </h1>
+
+          <div class="typing-container">
+            <span>I'm a</span>
+            <span class="typing-text" id="typingText"></span>
+            <span class="cursor"></span>
+          </div>
+
+          <p class="hero-description slide-up">
+            Architecting robust, high-performance web applications with a focus on scalable backend systems and flawless
+            user experiences. MERN stack specialist dedicated to delivering engineering excellence for global teams.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#contact" class="btn-primary">
+              <i class="fa-solid fa-paper-plane"></i> Hire Me
+            </a>
+            <a href="#projects" class="btn-secondary">
+              <i class="fa-solid fa-laptop-code"></i> View Projects
+            </a>
+            <a href="assets/Ruvana_Ansari_Resume.pdf" id="viewCvBtn" target="_blank" class="btn-secondary"
+              title="View Resume">
+              <i class="fa-solid fa-file-pdf"></i> View CV
+            </a>
+            <a href="assets/Ruvana_Ansari_Resume.pdf" id="downloadCvBtn" download="Ruvana_Ansari_Resume.pdf"
+              class="btn-secondary" title="Download Resume">
+              <i class="fa-solid fa-download"></i> Download CV
+            </a>
+          </div>
+
+          <!-- Stats Grid -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-number gradient-text">2+</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number gradient-text">10+</span>
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number gradient-text">100/100</span>
+              <span class="stat-label">Lighthouse</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number gradient-text"><i class="fa-solid fa-globe"></i></span>
+              <span class="stat-label">Remote Ready</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Profile Card -->
+        <div class="hero-visual">
+          <!-- Floating Tech Badges -->
+          <div class="floating-badge badge-react">
+            <i class="fa-brands fa-react icon-react"></i> React.js
+          </div>
+          <div class="floating-badge badge-node">
+            <i class="fa-brands fa-node-js icon-node"></i> Node.js
+          </div>
+          <div class="floating-badge badge-python">
+            <i class="fa-brands fa-python icon-python"></i> Python
+          </div>
+
+          <div class="avatar-wrapper">
+            <div class="avatar-inner">
+              <img src="assets/profile.jpg" alt="Er. Ruvana Ansari - Full Stack Developer" class="profile-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Get To Know Me</span>
+        <h2 class="section-title">About <span>Er. Ruvana Ansari</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="glass-card tilt-card slide-up" data-tilt data-tilt-max="5" data-tilt-speed="400">
+          <h3 style="font-size: 1.5rem; margin-bottom: 1rem;" class="gradient-text">Solutions-Driven Engineer</h3>
+          <p class="about-text">
+            I engineer scalable, high-performance web solutions that drive business value. As a Web Developer at
+            <strong>Rakle IT Solution</strong> with 2+ years of intensive experience, I bridge the gap between complex
+            backend architectures and flawless, intuitive user interfaces.
+          </p>
+          <p class="about-text">
+            I thrive on transforming intricate business challenges into elegant digital products. Leveraging expertise
+            across the MERN stack, Python, and modern cloud deployment, I consistently deliver modular, clean-code
+            applications optimized for maximum performance and user engagement.
+          </p>
+
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+            <a href="#contact" class="btn-primary">
+              <i class="fa-solid fa-envelope"></i> Contact Me
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank" class="btn-secondary">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+            </a>
+          </div>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+            <div class="highlight-info">
+              <h4>Quick Learner</h4>
+              <p>Adapts rapidly to modern technologies and industry trends.</p>
+            </div>
+          </div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <div class="highlight-info">
+              <h4>Problem Solver</h4>
+              <p>Analytical mindset focused on building scalable solutions.</p>
+            </div>
+          </div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <div class="highlight-info">
+              <h4>10+ Projects</h4>
+              <p>Delivered diverse e-commerce, portal & web app solutions.</p>
+            </div>
+          </div>
+
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="highlight-info">
+              <h4>Team Leadership</h4>
+              <p>Effective collaborator using Jira, Git, and agile methods.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">My Technical Stack</span>
+        <h2 class="section-title">Skills & <span>Tools Expertise</span></h2>
+      </div>
+
+      <div class="skills-container">
+        <!-- Technical Skills -->
+        <div>
+          <h3 class="skills-category-title">
+            <i class="fa-solid fa-code"></i> Technical & Engineering Skills
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fa-brands fa-html5 skill-icon icon-html"></i>
+              <span class="skill-name">HTML5</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="95"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-brands fa-css3-alt skill-icon icon-css"></i>
+              <span class="skill-name">CSS3</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="90"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-brands fa-js skill-icon icon-js"></i>
+              <span class="skill-name">JavaScript</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="88"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-brands fa-react skill-icon icon-react"></i>
+              <span class="skill-name">React.js</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-brands fa-node-js skill-icon icon-node"></i>
+              <span class="skill-name">Node.js</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="82"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-server skill-icon icon-express"></i>
+              <span class="skill-name">Express.js</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-brands fa-python skill-icon icon-python"></i>
+              <span class="skill-name">Python</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="75"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-database skill-icon icon-sql"></i>
+              <span class="skill-name">SQL</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-leaf skill-icon icon-mongodb"></i>
+              <span class="skill-name">MongoDB</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-database skill-icon" style="color: #336791;"></i>
+              <span class="skill-name">PostgreSQL</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="75"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-brands fa-python skill-icon" style="color: #092E20;"></i>
+              <span class="skill-name">Django</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-bolt skill-icon" style="color: #009688;"></i>
+              <span class="skill-name">FastAPI</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="75"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-brands fa-css3 skill-icon" style="color: #38bdf8;"></i>
+              <span class="skill-name">Tailwind CSS</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-brands fa-bootstrap skill-icon" style="color: #7952b3;"></i>
+              <span class="skill-name">Bootstrap</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-brands fa-git-alt skill-icon icon-git"></i>
+              <span class="skill-name">Git & GitHub</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="88"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills & Tools -->
+        <div>
+          <h3 class="skills-category-title">
+            <i class="fa-solid fa-screwdriver-wrench"></i> Soft Skills & Tools
+          </h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fa-brands fa-figma skill-icon icon-figma"></i>
+              <span class="skill-name">Figma</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-paper-plane skill-icon icon-postman"></i>
+              <span class="skill-name">Postman</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-list-check skill-icon icon-jira"></i>
+              <span class="skill-name">Jira</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="82"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-laptop-code skill-icon icon-vscode"></i>
+              <span class="skill-name">VS Code</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="92"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-people-group skill-icon" style="color: #6366f1;"></i>
+              <span class="skill-name">Team Leadership</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="90"></div>
+              </div>
+            </div>
+
+            <div class="skill-card">
+              <i class="fa-solid fa-comments skill-icon" style="color: #ec4899;"></i>
+              <span class="skill-name">Communication</span>
+              <div class="skill-level-bar">
+                <div class="skill-level-fill" data-level="95"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GITHUB INTEGRATION SECTION -->
+  <section id="github" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Real-time Metrics</span>
+        <h2 class="section-title">Live <span>GitHub Activity</span></h2>
+      </div>
+
+      <div class="github-dashboard glass-card slide-up">
+        <div class="github-header">
+          <div class="github-user">
+            <i class="fa-brands fa-github" style="font-size: 2rem;"></i>
+            <div>
+              <h3 id="ghName">Loading...</h3>
+              <a href="#" id="ghUrl" target="_blank"
+                style="color: var(--text-secondary); text-decoration: none;">@loading</a>
+            </div>
+          </div>
+          <div class="github-stats-pills">
+            <span class="gh-pill"><i class="fa-solid fa-book-bookmark"></i> <span id="ghRepos">0</span> Repos</span>
+            <span class="gh-pill"><i class="fa-solid fa-users"></i> <span id="ghFollowers">0</span> Followers</span>
+          </div>
+        </div>
+        <div class="github-repos" id="ghRepoList">
+          <!-- Repos injected via JS -->
+          <div style="text-align: center; width: 100%; color: var(--text-secondary);">Fetching latest repositories from
+            GitHub API...</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Career Journey</span>
+        <h2 class="section-title">Work <span>Experience</span></h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Web Developer</h3>
+                <span class="company-name">Rakle IT Solution — Noida</span>
+              </div>
+              <span class="duration-badge">Present / Full-Time</span>
+            </div>
+
+            <ul class="timeline-bullets">
+              <li><strong>Architected and developed</strong> high-performance, full-stack web applications using
+                React.js, Node.js, and Express. Implemented advanced state management and code-splitting techniques,
+                resulting in a 40% improvement in core web vitals and significantly higher user engagement.</li>
+              <li><strong>Engineered robust and secure RESTful APIs</strong> to serve dynamic data to the frontend.
+                Optimized complex database queries across SQL and MongoDB, implementing indexing and caching strategies
+                that reduced data retrieval latency by over 30%.</li>
+              <li><strong>Spearheaded end-to-end UI/UX development</strong> by translating complex Figma prototypes into
+                pixel-perfect, fully responsive interfaces. Ensured strict cross-browser compatibility and adherence to
+                modern accessibility (a11y) standards.</li>
+              <li><strong>Collaborated closely with cross-functional teams</strong> in an Agile environment using Jira
+                and Git. Streamlined deployment processes and participated in code reviews, consistently delivering
+                critical sprint goals ahead of schedule.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Full-Stack Web Developer</h3>
+                <span class="company-name">Aradhya Technologies Pvt. Ltd — Banaras</span>
+              </div>
+              <span class="duration-badge">Feb 2025 – May 2026</span>
+            </div>
+
+            <ul class="timeline-bullets">
+              <li><strong>Developed and optimized</strong> backend REST APIs using Django and Fast API, improving API
+                response time and performance.</li>
+              <li><strong>Built responsive and dynamic</strong> front-end interfaces using React, styled with Tailwind
+                CSS.</li>
+              <li><strong>Managed data persistence</strong> and complex queries using MongoDB and MySQL.</li>
+              <li><strong>Integrated payment gateways</strong> such as Razor pay for secure transactions.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Featured Work</span>
+        <h2 class="section-title">My Recent <span>Projects</span></h2>
+      </div>
+
+      <!-- Filters -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        <button class="filter-btn" data-filter="webapps">Web Apps</button>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card tilt-card slide-up" data-tilt data-tilt-max="10" data-tilt-speed="400"
+          data-category="fullstack">
+          <div class="project-banner">
+            <i class="fa-solid fa-robot"></i>
+            <div class="project-overlay">
+              <a href="https://eduaiq.co.in/" target="_blank" class="icon-btn" title="Live Preview"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Django</span>
+              <span class="tag">React</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Razorpay</span>
+            </div>
+            <h3 class="project-title"><a href="https://eduaiq.co.in/" target="_blank"
+                style="color: inherit; text-decoration: none;">EduAIQ (EdTech Platform)</a></h3>
+            <p class="project-description">
+              An advanced AI-powered educational platform with JWT authentication, course management (video lectures,
+              notes, quizzes), and secure payment integration via Razorpay. Includes a full admin panel for managing
+              students and content.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card tilt-card slide-up" data-tilt data-tilt-max="10" data-tilt-speed="400"
+          data-category="webapps">
+          <div class="project-banner">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div class="project-overlay">
+              <a href="#" class="icon-btn" title="Live Preview"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="#" class="icon-btn" title="GitHub Code"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Django</span>
+              <span class="tag">React</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">JWT</span>
+            </div>
+            <h3 class="project-title">Devine IQ (FinTech Platform)</h3>
+            <p class="project-description">
+              A fully responsive E-commerce platform featuring authentication, cart management, and dynamic product
+              listings. Designed modern UI/UX interfaces using Tailwind CSS and integrated backend APIs for seamless
+              order management.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card tilt-card slide-up" data-tilt data-tilt-max="10" data-tilt-speed="400"
+          data-category="fullstack">
+          <div class="project-banner">
+            <i class="fa-solid fa-briefcase"></i>
+            <div class="project-overlay">
+              <a href="#" class="icon-btn" title="Live Preview"><i
+                  class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="#" class="icon-btn" title="GitHub Code"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">HTML5/CSS3</span>
+              <span class="tag">JavaScript ES6</span>
+              <span class="tag">Figma</span>
+            </div>
+            <h3 class="project-title">Dynamic Portfolio Builder</h3>
+            <p class="project-description">
+              An interactive web application enabling developers & designers to build, customize, and preview
+              responsive, high-impact portfolios instantly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Get In Touch</span>
+        <h2 class="section-title">Let's Work <span>Together</span></h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+
+          <!-- Smart Timezone Widget -->
+          <div class="timezone-widget glass-card" id="timezoneWidget">
+            <div class="tz-header">
+              <i class="fa-solid fa-earth-americas tz-icon"></i>
+              <h4>Timezone Sync</h4>
+            </div>
+            <p class="tz-status" id="tzStatus">Calculating time overlap...</p>
+            <div class="tz-clocks">
+              <div class="tz-clock">
+                <span class="tz-label">My Time (IST)</span>
+                <span class="tz-time" id="myTime">--:--</span>
+              </div>
+              <div class="tz-clock">
+                <span class="tz-label">Your Time</span>
+                <span class="tz-time" id="yourTime">--:--</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-card" style="margin-top: 1.5rem;">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="contact-details">
+              <h4>Location & Availability</h4>
+              <p>Noida, India (Open to Relocate / Remote)</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-details">
+              <h4>Email Address</h4>
+              <p>ruviansari144@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="contact-details">
+              <h4>Phone Number</h4>
+              <p>+91 9305988767</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="contact-details">
+              <h4>LinkedIn Profile</h4>
+              <p><a href="https://www.linkedin.com/" target="_blank"
+                  style="color: inherit; text-decoration: none; border-bottom: 1px dashed var(--accent-cyan);">linkedin.com</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+            <div class="contact-details">
+              <h4>GitHub Repository</h4>
+              <p><a href="https://github.com/" target="_blank"
+                  style="color: inherit; text-decoration: none; border-bottom: 1px dashed var(--accent-cyan);">github.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-card">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-control" placeholder="e.g. Rahul Sharma" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" class="form-control" placeholder="e.g. rahul@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" class="form-control" placeholder="e.g. Project Inquiry / Hiring" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" placeholder="Write your message here..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO AI ASSISTANT -->
+  <aside class="ai-assistant" id="aiAssistant" aria-label="Portfolio AI Assistant">
+    <div class="ai-chat-panel" id="aiChatPanel" aria-hidden="true">
+      <div class="ai-chat-header">
+        <div class="ai-chat-identity">
+          <span class="ai-avatar"><i class="fa-solid fa-sparkles"></i></span>
+          <div>
+            <strong>Ruvana's AI Assistant</strong>
+            <span><i class="status-dot"></i> Online now</span>
+          </div>
+        </div>
+        <button class="ai-close" id="aiClose" aria-label="Close assistant"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="ai-chat-messages" id="aiChatMessages" aria-live="polite">
+        <div class="ai-message ai-message-bot">
+          Hi! I can help you explore Ruvana's skills, projects, experience, or availability.
+        </div>
+      </div>
+
+      <div class="ai-quick-prompts" aria-label="Suggested questions">
+        <button type="button" data-question="What technologies does Ruvana use?">Tech stack</button>
+        <button type="button" data-question="Tell me about her projects">Projects</button>
+        <button type="button" data-question="Is she available for work?">Availability</button>
+      </div>
+
+      <form class="ai-chat-form" id="aiChatForm">
+        <label class="sr-only" for="aiChatInput">Ask the portfolio assistant</label>
+        <input id="aiChatInput" type="text" placeholder="Ask about Ruvana..." autocomplete="off" maxlength="240"
+          required>
+        <button type="submit" aria-label="Send message"><i class="fa-solid fa-arrow-up"></i></button>
+      </form>
+      <p class="ai-disclaimer">Portfolio assistant · Answers are based on this site</p>
+    </div>
+    <button class="ai-launcher" id="aiLauncher" aria-label="Open portfolio assistant" aria-expanded="false">
+      <i class="fa-solid fa-sparkles"></i>
+      <span>Ask AI</span>
+    </button>
+  </aside>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toastNotification" class="toast-notification">
+    <i class="fa-solid fa-circle-check" style="color: var(--accent-cyan); font-size: 1.2rem;"></i>
+    <span class="toast-message">Message sent successfully!</span>
+  </div>
+
+  <!-- INTERACTIVE TERMINAL (DEV MODE) -->
+  <div class="terminal-overlay" id="terminalOverlay" aria-hidden="true">
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="terminal-buttons">
+          <span class="term-btn close" id="termClose"></span>
+          <span class="term-btn minimize"></span>
+          <span class="term-btn maximize"></span>
+        </div>
+        <div class="terminal-title">Ruvana@dev-portfolio: ~</div>
+      </div>
+      <div class="terminal-body" id="terminalBody">
+        <div class="term-line">Welcome to Er. Ruvana Ansari's Interactive Portfolio CLI.</div>
+        <div class="term-line">Type <span class="term-highlight">help</span> to see available commands.</div>
+        <div class="term-prompt-line">
+          <span class="term-prompt">Ruvana@dev:~$</span>
+          <input type="text" id="termInput" class="term-input" autocomplete="off" spellcheck="false" autofocus>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="logo">
+          <span class="code-tag">&lt;</span>Er. Ruvana Ansari<span class="code-tag"> /&gt;</span>
+        </a>
+
+        <p style="color: var(--text-secondary); max-width: 500px;">
+          Building scalable web applications & beautiful user experiences. Web Developer @ Rakle IT Solution.
+        </p>
+
+        <ul class="social-links">
+          <li><a href="https://www.linkedin.com/" target="_blank" class="social-link" aria-label="LinkedIn"><i
+                class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="https://github.com/" target="_blank" class="social-link" aria-label="GitHub"><i
+                class="fa-brands fa-github"></i></a></li>
+          <li><a href="mailto:ruviansari144@gmail.com" class="social-link" aria-label="Email"><i
+                class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+
+        <p class="copyright">
+          © 2026 Er. Ruvana Ansari. All rights reserved. Made with ❤️ for LinkedIn & Recruiters.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla Tilt JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+  <!-- Custom JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
